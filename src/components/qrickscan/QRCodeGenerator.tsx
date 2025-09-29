@@ -42,8 +42,8 @@ export default function QRCodeGenerator() {
     resolver: zodResolver(qrCodeSchema),
     defaultValues: {
       text: "",
-      fgColor: "#32CD32",
-      bgColor: "#1E1E1E",
+      fgColor: "#000000",
+      bgColor: "#FFFFFF",
       logo: null,
     },
   });
